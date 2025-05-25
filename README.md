@@ -6,9 +6,9 @@
 ## 🔜 To Learn Next
 - Syntax
 - Variables
-- Data types
+- Types
 - Constants
-- Operators
 - Expressions
+- Operators
 - Control structures
 - Mini-project: Create a basic calculator application

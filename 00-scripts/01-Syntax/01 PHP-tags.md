@@ -1,4 +1,4 @@
-# PHP-tags
+# PHP-TAGS
 
  1. Recommended way to start PHP code blocks  `<?php //PHP CODE ?>`
  

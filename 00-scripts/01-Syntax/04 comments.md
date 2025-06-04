@@ -2,9 +2,12 @@
 # Comments
 
 ## PHP supports 3 comment styles:
-Type  						| Syntax 			| Example
+Type| Syntax |Example|
+|--|--|--|
 C-style (multi-line) |`/* ... */`|`/* This is a multi-line comment */`
+|--|--|--|
 C++-style (single) |`//`  |` // This is a single-line comment`
+|--|--|--|
 Shell-style (single)| `#` |`# Another single-line comment`
 
 

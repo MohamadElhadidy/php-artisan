@@ -25,6 +25,7 @@ Even though `#` comments out `echo`, the `?>` ends PHP mode — and `visible` is
 
 🔸 2. **Don't nest C-style (`/* */`) comments**
 This will break:
+
 `/*
 echo 'test'; /* inner comment */`
 

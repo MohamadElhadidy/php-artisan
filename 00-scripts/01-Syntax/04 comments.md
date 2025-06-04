@@ -32,7 +32,7 @@ echo 'test'; /* inner comment */`
 `*/`
 
 ✅ Fix: Use multiple `//` or toggle styles like this:
-`/*
+`//*
 echo 'test';`
 `// */`
 

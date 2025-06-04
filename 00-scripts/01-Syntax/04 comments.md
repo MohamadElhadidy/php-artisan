@@ -22,6 +22,7 @@ Shell-style (single)| `#` |`# Another single-line comment`
     <?php # echo "hidden"; ?> visible
 Even though `#` comments out `echo`, the `?>` ends PHP mode — and `visible` is **plain HTML**, so it **will be shown**.
 
+
 🔸 2. **Don't nest C-style (`/* */`) comments**
 This will break:
 `/*
@@ -35,7 +36,8 @@ echo 'test';`
 
 Switch the opening line to `/*` to comment out the block.
 
-#### 🔸 3. **New in PHP 8: `#[` starts attributes**
+
+🔸 3. **New in PHP 8: `#[` starts attributes**
 
 This will throw a **syntax error**:
 
@@ -43,7 +45,8 @@ This will throw a **syntax error**:
 
 ✅ Always prefer `//` for inline comments unless you're defining attributes.
 
-#### 🔸 4. **Regex or code with `?>` inside `//` comments may break**
+
+🔸 4. **Regex or code with `?>` inside `//` comments may break**
 
 Example:
 `// preg_match('/^(?>cat|dog)/', $string);`
@@ -51,7 +54,8 @@ Example:
 The parser sees `?>` and ends PHP prematurely.  
 ✅ Fix: Use `/* */` for such lines.
 
-#### 5. **HTML comments (`<!-- -->`) don’t block PHP execution**
+
+🔸 5. **HTML comments (`<!-- -->`) don’t block PHP execution**
 
 This:
 

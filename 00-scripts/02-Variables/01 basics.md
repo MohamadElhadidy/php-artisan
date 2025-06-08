@@ -32,8 +32,8 @@
 
  - By default, variables are always assigned by value.
 
- - PHP also offers another way to assign values to variables: [assign by
-   reference](https://www.php.net/manual/en/language.references.php). This means that the new variable simply references (in other words,
+ - PHP also offers another way to assign values to variables: assign by
+   reference. This means that the new variable simply references (in other words,
    "becomes an alias for" or "points to") the original variable. Changes
    to the new variable affect the original, and vice versa.
    `<?php  
@@ -49,10 +49,8 @@ $foo = 'Bob'; // Assign the value 'Bob' to $foo  `
 
  - It is not necessary to declare variables in PHP, however, it is a
    very good practice. Accessing an undefined variable will result in an
-   **`[E_WARNING](https://www.php.net/manual/en/errorfunc.constants.php#constant.e-warning)`**(prior to PHP 8.0.0,**`[E_NOTICE](https://www.php.net/manual/en/errorfunc.constants.php#constant.e-notice)`**). An undefined variable has a default value of **`[null](https://www.php.net/manual/en/reserved.constants.php#constant.null)`**.
-   The [isset()](https://www.php.net/manual/en/function.isset.php)
-   language construct can be used to detect if a variable has already
-   been initialized.
+   **E_WARNING**(prior to PHP 8.0.0,**E_NOTICE**). An undefined variable has a default value of **null**.
+   The isset() language construct can be used to detect if a variable has already been initialized.
 
  - Extra Tip: Use `??` (Null coalescing operator)
 

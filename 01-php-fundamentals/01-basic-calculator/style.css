@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 120px 0;
+  overflow: hidden;
+  flex-direction: column;
+    font-family: Inter;
+
+}
+
+.wrapper {
+  display: flex;
+  width: 430px;
+  padding: 83px 21px 260px 22px;
+  flex-direction: column;
+  align-items: center;
+  gap: 129px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #d5d5d5;
+}
+
+.wrapper h1 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.calculator input {
+  width: 83px;
+  height: 54px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  background: #fff;
+  padding: 0px 10px;
+}
+
+.calculator form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.calculator select {
+  display: flex;
+  width: 49px;
+  padding: 7px 0px 6px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+}
+.input-group1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group2 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.result{
+    width: 83px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator button {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background: #f0f0f0;
+}
+
+
+.calculator .error{
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+span{
+    font-weight: 800;
+}
+
+

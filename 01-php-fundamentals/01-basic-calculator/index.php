@@ -26,7 +26,7 @@
              </div>
                <div class="input-group2">
                  <button type="submit">Calculate</button>
-                 <span class="error"><?= $_REQUEST['errors'] ?? '' ?></span>
+                 <span class="error"><?= $_REQUEST['error'] ?? '' ?></span>
                </div>
             </form>
         </div>

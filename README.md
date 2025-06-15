@@ -1,48 +1,46 @@
 # PHP + Laravel Mastery Track 🚀
 
-Welcome to my 28-week learning journey through PHP, MySQL, Laravel, architecture, and DevOps! This repo contains all the code and notes from my hands-on projects across 5 key phases:
-
 ---
 
 ## 📚 Curriculum Overview
 
 ### Phase 1: PHP Fundamentals
-- Week 1: Basic Calculator
-- Week 2: To-Do List (Session)
-- Week 3: User Registration (Validation)
-- Week 4: Contact Manager (CRUD)
-- Week 5: OOP Refactor
-- Week 6: E-Commerce Class Hierarchy
-- Week 7: Security Audit
-- Week 8: Authentication System
+- 1: Basic Calculator
+- 2: To-Do List (Session)
+- 3: User Registration (Validation)
+- 4: Contact Manager (CRUD)
+- 5: OOP Refactor
+- 6: E-Commerce Class Hierarchy
+- 7: Security Audit
+- 8: Authentication System
 
 ### Phase 2: MySQL Mastery
-- Week 9: E-commerce DB Design
-- Week 10: Stored Procedures
-- Week 11: DB Optimization
-- Week 12: Scalable DB Architecture
+- 09: E-commerce DB Design
+- 10: Stored Procedures
+- 11: DB Optimization
+- 12: Scalable DB Architecture
 
 ### Phase 3: Design Patterns & Architecture
-- Week 13: Refactor with Design Patterns
-- Week 14: Build MVC Mini-Framework
-- Week 15: Modular News Aggregator
-- Week 16: Test Coverage with PHPUnit
+- 13: Refactor with Design Patterns
+- 14: Build MVC Mini-Framework
+- 15: Modular News Aggregator
+- 16: Test Coverage with PHPUnit
 
 ### Phase 4: Laravel Framework
-- Week 17: Laravel Basics
-- Week 18: Database Migrations & Models
-- Week 19: Full-Featured Laravel App
-- Week 20: Background Processing
-- Week 21: Ecosystem Tools
-- Week 22: Laravel API Backend
+- 17: Laravel Basics
+- 18: Database Migrations & Models
+- 19: Full-Featured Laravel App
+- 20: Background Processing
+- 21: Ecosystem Tools
+- 22: Laravel API Backend
 
 ### Phase 5: Enterprise-Level Development
-- Week 23: Microservices Architecture
-- Week 24: Laravel Performance Optimization
-- Week 25: App Scalability Strategy
-- Week 26: CI/CD with Docker + GitHub Actions
-- Week 27: Advanced Security
-- Week 28: Final Capstone Project
+- 23: Microservices Architecture
+- 24: Laravel Performance Optimization
+- 25: App Scalability Strategy
+- 26: CI/CD with Docker + GitHub Actions
+- 27: Advanced Security
+- 28: Final Capstone Project
 
 ---
 

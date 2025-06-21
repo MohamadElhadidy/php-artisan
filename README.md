@@ -7,7 +7,7 @@
 ### Phase 1: PHP Fundamentals
 - 1: Basic Calculator ✅.
 - 2: To-Do List (Session) ✅.
-- 3: User Registration (Validation)
+- 3: User Registration (Validation) ✅.
 - 4: Contact Manager (CRUD)
 - 5: OOP Refactor
 - 6: E-Commerce Class Hierarchy

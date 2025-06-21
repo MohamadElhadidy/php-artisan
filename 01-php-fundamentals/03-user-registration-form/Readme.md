@@ -42,16 +42,17 @@ This project is a complete **user registration system** built with PHP. It inclu
 ### Setup Instructions
 
 1. Clone or download this repository.
-2. Navigate to the project directory.
-3. Start a local PHP server:
+2. create uploads folder.
+3. Navigate to the project directory.
+4. Start a local PHP server:
    ```bash
-   php -S localhost:8000
+   php -S localhost:8001
    ```
 ````
 
 4. Open your browser and go to:
    ```
-   http://localhost:8000/
+   http://localhost:8001/
    ```
 
 ---

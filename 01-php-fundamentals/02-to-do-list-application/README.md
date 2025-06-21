@@ -42,8 +42,14 @@ This is a beginner-friendly PHP project that implements a simple **To-Do List Ma
 
 ```
 02-todo-list/
-├── index.php        # Main UI and logic
+├── add.php        # add task logic
+├── complete.php        #  complete task logic
+├── delete.php      #  delete task logic
+├── functions.php        #  functions logic
+├── index.php        # Main UI 
+├── init.php        # begin the session logic
 ├── style.css        # (Optional) Styling
+├── uncomplete.php        #  uncomplete task logic
 └── README.md        # Project documentation
 ```
 

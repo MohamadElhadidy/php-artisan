@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $check_stmt->bind_param('ss', $email, $phone);
         $check_stmt->execute();
         $result = $check_stmt->get_result();
+
         if ($result->num_rows > 0) {
             $errors[] = "Contact exists";
         } else {

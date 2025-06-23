@@ -1,6 +1,8 @@
 <?php session_start(); ?>
 <?php
-require_once "get.php";
+require_once('db.php');
+
+require_once "functions.php";
 $contacts = get_contacts();
 ?>
 
@@ -43,11 +45,14 @@ $contacts = get_contacts();
             <tbody>
                 <?php foreach ($contacts as $contact): ?>
                     <tr>
-                        <td><?= $contact['first_name'] .' '. $contact['last_name']?></td>
-                        <td><?= $contact['email']?></td>
-                        <td><?= $contact['phone']?></td>
-                        <td><?= $contact['address']?></td>
-                        <td></td>
+                        <td><?= $contact['first_name'] . ' ' . $contact['last_name'] ?></td>
+                        <td><?= $contact['email'] ?></td>
+                        <td><?= $contact['phone'] ?></td>
+                        <td><?= $contact['address'] ?></td>
+                        <td>
+                            <a href="edit.php?id=<?= $contact['id'] ?>">Edit</a>
+                            <a href="delete.php?id=<?= $contact['id'] ?>">Delete</a>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

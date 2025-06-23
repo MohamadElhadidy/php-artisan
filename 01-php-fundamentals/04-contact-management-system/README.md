@@ -110,6 +110,10 @@ This project is a basic **Contact Management System** built with PHP and MySQL. 
 - Add search/filter functionality
 - Add pagination for large contact lists
 - Store contact photos
+- Security checks
+- Code Structure
+- styling
+
 
 ---
 
